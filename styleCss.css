@@ -47,7 +47,7 @@ img{
 }
 
 /*Media querry : gestion des écrans*/
-@media (min-width:800px){
+@media (min-width:1024px){
     .Whole_Body{
         width: auto;
         height: auto;
@@ -58,8 +58,6 @@ img{
     .Body{
         display: flex;
         flex-direction: column;
-    }
-    .Body p{
     }
     img{
         width: 400px;
@@ -81,7 +79,7 @@ img{
         text-align: center;
     }
 }
-@media( max-width:500px){
+@media( min-width:768px){
     img{
         width: 300px;
         padding: 10px;
@@ -89,9 +87,9 @@ img{
         box-shadow: 5px 5px 5px  20px solid black;
     }
 }
-@media( max-width:300px){
+@media( min-width:640px){
     img{
-        width: 200px;
+        width: 300px;
         padding: 10px;
         padding-bottom: 1px;
         box-shadow: 5px 5px 5px  20px solid black;
