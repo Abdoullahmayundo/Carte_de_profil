@@ -81,6 +81,14 @@ img{
         text-align: center;
     }
 }
+@media( max-width:500px){
+    img{
+        width: 300px;
+        padding: 10px;
+        padding-bottom: 1px;
+        box-shadow: 5px 5px 5px  20px solid black;
+    }
+}
 @media( max-width:300px){
     img{
         width: 200px;
